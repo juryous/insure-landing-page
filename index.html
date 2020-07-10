@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Insure landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  How we work
-  Blog
-  Account
-  View plans
+  <div class="container">
+    <nav class="nav flex">
+      <img src="./images/logo.svg" alt="Insure logo">
+      <ul class="nav-items">
+        <li class="nav-item">
+          How we work
+        </li>
+        <li class="nav-item">
+          Blog
+        </li>
+        <li class="nav-item">
+          Account
+        </li>
+        <li class="nav-item">
+          <a href="" class="btn">View plans</a>
+        </li>
+      </ul>
+      <a href="" id="nav-toggle"><img class="nav-img" src="./images/icon-hamburger.svg" alt=""></a>
+    </nav>
+  </div>
 
-  Humanizing your insurance.
+  <!-- Humanizing your insurance.
 
   Get your life insurance coverage easier and faster. We blend our expertise 
   and technology to help you find the plan that’s right for you. Ensure you 
@@ -74,12 +90,9 @@
 
   Careers
   Press
-  Licenses
+  Licenses -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
