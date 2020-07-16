@@ -23,7 +23,7 @@ html {
 body {
     margin: 0;
     font-family: 'Karla', sans-serif;
-    color: var(--Grayish-blue);
+    color: var(--Dark-grayish-violet);
     height: 100vh;
 }
 
@@ -31,11 +31,6 @@ a {
     text-decoration: none;
     color: white;
 }
-
-/* .container {
-    margin: 0 auto;
-    width: 90%;
-} */
 
 .flex {
     display: flex;
@@ -192,4 +187,49 @@ nav {
     font-weight: normal;
     line-height: 1;
     margin-top: 0;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 5em 1em;
+    background: var(--Very-light-gray) url(./images/bg-pattern-footer-mobile.svg) no-repeat top center;
+}
+
+.social {
+    margin-top: 2em;
+}
+
+.social-link {
+    padding: .3em;
+}
+
+.fab {
+    color:var(--Dark-grayish-violet);
+    font-size: 1.75rem;
+}
+
+.footer-links {
+    border-top: 1px solid var(--Dark-grayish-violet);
+    padding-top: .5em;
+    margin-top: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.links-column {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.list-heading {
+    color: var(--Dark-grayish-violet);
+    margin: 2em 0;
+}
+
+.list-item {
+    color: var(--Dark-violet);
+    padding: .5em 0;
 }
