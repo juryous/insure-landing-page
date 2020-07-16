@@ -46,14 +46,14 @@ a {
 .btn {
     display: inline-block;
     border: 2px solid white;
-    background-color: var(--Very-dark-violet);
+    background-color: var(--Dark-violet);
     font-family: 'Karla', sans-serif;
     font-size: 1rem;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: .75em 5.5em;
+    padding: .75em 2em;
 }
 
 /* NAV BAR */
@@ -86,6 +86,11 @@ nav {
     margin: 2em 0;
 }
 
+.nav-btn {
+    padding: .75em 6.5em;
+    background-color: var(--Very-dark-violet);
+}
+
 .visible {
     display: block;
 }
@@ -94,7 +99,7 @@ nav {
 
 .intro {
     position: relative;
-    background: var(--Very-dark-violet) url(./images/bg-pattern-intro-left-mobile.svg) no-repeat bottom left;
+    background: var(--Dark-violet) url(./images/bg-pattern-intro-left-mobile.svg) no-repeat bottom left;
     background-position-y: 59%;
     text-align: center;
     padding-bottom: 6em;
@@ -149,10 +154,6 @@ nav {
     font-weight: normal;
 }
 
-.features-img {
-    margin-top: 2em;
-}
-
 .features-title::before {
     content: '';
     position: absolute;
@@ -164,10 +165,31 @@ nav {
     transform: translateX(-50%);
 }
 
+.features-img {
+    margin-top: 2em;
+}
+
 .features-subtitle {
     color: var(--Very-dark-violet);
     font-family: 'DM Serif Display', serif;
     font-weight: normal;
     font-size: 1.75rem;
     margin: .5em 0;
+}
+
+/* MORE SECTION */
+
+.more {
+    text-align: center;
+    background: var(--Dark-violet) url(./images/bg-pattern-how-we-work-mobile.svg) no-repeat right top;
+    padding: 4em 1em;
+}
+
+.more-title {
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.75rem;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 0;
 }
