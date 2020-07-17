@@ -29,13 +29,11 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 .flex {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .btn {
@@ -56,6 +54,7 @@ a {
 nav {
     padding: 1em;
     position: relative;
+    justify-content: space-between;
 }
 
 .nav-items {
@@ -247,6 +246,8 @@ footer {
         max-width: 1200px;
         margin: 0 auto;
     }
+
+
     /* NAV BAR */
 
     #nav-toggle {
