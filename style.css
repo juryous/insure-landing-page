@@ -24,7 +24,7 @@ body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     color: var(--Dark-grayish-violet);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 a {
@@ -70,6 +70,9 @@ nav {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+}
+
+.nav-link {
     color: white;
 }
 
@@ -78,6 +81,7 @@ nav {
     letter-spacing: 2px;
     font-weight: 700;
     margin: 2em 0;
+    color: white;
 }
 
 .nav-btn {
@@ -273,9 +277,12 @@ footer {
         background: none;
     }
 
+    .nav-link {
+        color: var(--Dark-grayish-violet);
+    }
+
     .nav-item {
         margin: 0;
-        color: var(--Dark-grayish-violet);
     }
 
     .nav-item + .nav-item {
@@ -288,4 +295,8 @@ footer {
         color: var(--Dark-violet);
         padding: .75em 1.75em;
     }
+
+    /* INTRO SECTION */
+
+
 }
