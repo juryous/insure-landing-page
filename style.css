@@ -234,9 +234,9 @@ footer {
     padding: .5em 0;
 }
 
-/* 700px breakpoint */
+/* 800px breakpoint */
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
 
     a {
         color: var(--Dark-grayish-violet);
@@ -255,6 +255,7 @@ footer {
 
     .nav {
         position: static;
+        padding: 1em 0;
     }
 
     .nav-items {
@@ -272,8 +273,12 @@ footer {
     }
 
     .nav-item {
-        margin: 0 .75em;
+        margin: 0;
         color: var(--Dark-grayish-violet);
+    }
+
+    .nav-item + .nav-item {
+        margin-left: 1.5em;
     }
 
     .nav-btn {
