@@ -156,7 +156,7 @@ nav {
     content: '';
     position: absolute;
     background-color: var(--Dark-grayish-violet);
-    width: 40%;
+    width: 140px;
     height: 1px;
     left: 50%;
     bottom: 140%;
@@ -357,4 +357,29 @@ footer {
     .intro-copy {
         padding: 0;
     }
+
+    /* FEATURES SECTION */
+
+.features {
+    text-align: left;
+}
+
+.features-title::before {
+    width: 100px;
+    left: 0;
+    transform: none;
+}
+
+.features-wrapper {
+    display: flex;
+}
+
+.col {
+    flex: 1 1 0;
+}
+
+.col + .col {
+    margin-left: 1.5em;
+}
+
 }
