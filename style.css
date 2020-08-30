@@ -24,7 +24,6 @@ body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     color: var(--Dark-grayish-violet);
-    /* height: 100vh; */
 }
 
 a {
@@ -42,6 +41,11 @@ a {
     font-weight: 700;
     letter-spacing: 2px;
     padding: .75em 2em;
+}
+
+.btn:hover {
+    color: var(--Dark-violet);
+    background-color: white;
 }
 
 /* NAV BAR */
@@ -81,8 +85,17 @@ nav {
     color: white;
 }
 
+.nav-link:hover {
+    color: var(--Very-dark-violet);
+}
+
 .nav-btn {
     padding: .75em 6.5em;
+    background-color: var(--Very-dark-violet);
+}
+
+.nav-btn:hover {
+    color: white;
     background-color: var(--Very-dark-violet);
 }
 
@@ -131,6 +144,10 @@ nav {
 .intro-btn {
     padding: .75em 2em;
     font-size: .75rem;
+}
+
+.intro-btn:hover {
+    /* background-color: white; */
 }
 
 /* FEATURES SECTION */
@@ -210,6 +227,10 @@ footer {
     font-size: 1.75rem;
 }
 
+.fab:hover {
+    color: var(--Very-dark-violet);
+}
+
 .footer-links {
     border-top: 1px solid var(--Dark-grayish-violet);
     padding-top: .5em;
@@ -232,6 +253,10 @@ footer {
 .list-item {
     color: var(--Dark-violet);
     padding: .5em 0;
+}
+
+.list-item:hover {
+    text-decoration-line: underline;
 }
 
 /* 800px breakpoint */
@@ -289,8 +314,8 @@ footer {
         margin: 0;
     }
 
-    .nav-item+.nav-item {
-        margin-left: 1.5em;
+    .nav-item + .nav-item {
+        margin-left: 2em;
     }
 
     .nav-btn {
@@ -340,6 +365,7 @@ footer {
 
     .text-div {
         width: 50%;
+        z-index: 1;
     }
 
     .text-div::before {
