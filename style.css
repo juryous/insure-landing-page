@@ -398,6 +398,31 @@ footer {
         margin: 0;
     }
 
-    
+    /* FOOTER */
+
+    footer {
+        text-align: left;
+        margin-top: 9em;
+        padding: 4em 0;
+        background: var(--Very-light-gray) url(./images/bg-pattern-footer-desktop.svg) no-repeat top left;
+    }
+
+    .social {
+        margin: 0;
+    }
+
+    .footer-links {
+        margin-top: 2em;
+        text-align: left;
+    }
+
+    .links-wrapper {
+        align-items: flex-start;
+        width: 80%;
+    }
+
+    .links-column {
+        margin: 0;
+    }
 
 }
