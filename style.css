@@ -365,6 +365,7 @@ footer {
 
     .features {
         text-align: left;
+        padding: 8em 0;
     }
 
     .features-title::before {
@@ -382,13 +383,14 @@ footer {
     }
 
     .col+.col {
-        margin-left: 1.5em;
+        margin-left: 1em;
     }
 
     /* MORE SECTION */
 
     .more {
         text-align: left;
+        background: var(--Dark-violet) url(./images/bg-pattern-how-we-work-desktop.svg) no-repeat right top;
         padding: 4em;
     }
 
