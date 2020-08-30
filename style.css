@@ -235,6 +235,10 @@ footer {
     text-align: center;
 }
 
+.footer-link {
+    color: var(--Dark-violet);
+}
+
 .links-column {
     list-style: none;
     padding: 0;
@@ -247,7 +251,6 @@ footer {
 }
 
 .list-item {
-    color: var(--Dark-violet);
     padding: .5em 0;
 }
 
